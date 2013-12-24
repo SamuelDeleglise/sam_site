@@ -12,7 +12,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/home/pi/sam_site/sam_site.db',                      # Or path to database file if using sqlite3.
+        'NAME': 'C:/users/samuel/documents/Github/sam_site/sam_site.db',#'/home/pi/sam_site/sam_site.db',                      # Or path to database file if using sqlite3.
         # The following settings are not used with sqlite3:
         'USER': '',
         'PASSWORD': '',
@@ -72,6 +72,7 @@ STATICFILES_DIRS = (
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
+    'C:/Users/Samuel/Documents/GitHub/sam_site/static',
 )
 
 # List of finder classes that know how to find static files in
@@ -125,6 +126,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     'polls',
+    'home',
 )
 
 # A sample logging configuration. The only tangible logging

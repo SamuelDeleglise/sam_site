@@ -1,0 +1,232 @@
+html
+{
+    /*font-size:0.95em;*/
+    color: #111111;
+}
+
+body
+{ 
+    /*font-family: "Times New Roman", Times, "Nimbus Roman No9 L", serif;*/
+    /*font-family: Arial, Helvetica, "Nimbus Sans L", sans-serif;*/
+    /*font: 100% Verdana, Arial, Helvetica, sans-serif;*/
+    /*background-color: white;*/
+    background-color: #FDFDFD;
+    /*color: #515151;*/
+    margin-top:0%;
+    margin-right:4%;
+    margin-left:4%;
+    padding:0;
+    /*font-size:90%;*/
+}
+
+h1
+{
+    font-size : 1.3em;
+    font-weight:normal;
+    border-bottom:1px solid #cccccc;
+    color:#2020AA;
+}
+
+h2
+{
+    font-size : 1.2em;
+    font-weight:normal;	
+    border-bottom:1px solid #cccccc;
+    color:#2020AA;
+}
+
+h3
+{
+/*    font-size : 1.1em;
+    font-weight:normal;	
+    border-bottom:1px solid #cccccc;
+    color:#2020AA;
+*/
+}
+
+div.title
+{
+    font-size:1.0em;
+    color: #505050;
+    text-align: left;
+    margin-left:5%;
+    margin-right:8%;
+    padding-bottom: 0px;
+    padding-top: 2%;
+    line-height:1.75em;
+}
+
+div.title img
+{
+    float:right;
+    margin-top:2%;
+}
+
+div.title h1  {
+    font-size:1.6em;
+}
+
+div.menuline{
+    margin-bottom: 10px;		
+    padding-bottom: 0px;
+}
+
+span.box  {
+    text-align:center;
+    font-size:0.9em; 
+    padding: 4px 8px 4px 8px;
+    background: #dddddd;
+}
+
+div.halfpage {
+    width:50%;
+    margin-top: 5%;
+    float:left;
+}
+
+div.halfright {
+    width:50%;
+    margin-top: 5%;
+    float:right;
+}
+
+div.halfcenter {
+    margin-top: 5%;
+    margin-left:25%;
+    margin-right:25%;
+}
+
+
+div.page 
+{ 
+    font-size : 1.0em;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right:8%;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    text-align: justify;
+    border-left: 1px solid #cccccc;
+}
+
+
+div.page ul { 
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+    padding-top: 10px; 
+    padding-bottom: 0px;
+    text-align: left; 
+}
+
+div.page li {
+    margin-top: 0.5em;
+}
+
+
+div.page code{
+	margin-top : 3px;
+	/*font-size:14px;*/
+	color:#000000;
+}
+
+div.page p {
+    padding-top : 0px;
+    margin-bottom : 0px;
+}
+
+span.papertitle{
+    color:#000080;
+    font-style:italic;
+}
+
+span.program{
+    font-size: 1.0em;
+    font-weight:bolder;
+}
+
+span.author{
+    color:#990044;
+}
+
+
+a {
+  color:#882200;
+  text-decoration:none;
+}
+
+a:hover {
+  color:#FF9900;
+  background-color:#EEEEEE;
+}
+
+
+page  li {
+	/*font-size:1em;*/
+}
+
+td {
+   padding-left:20px;
+   padding-right:20px;
+   padding-top:3px;
+   padding-bottom:3px;
+}
+
+.right{
+    width:35%;
+    float:right;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:5%;
+    padding-right:10%;
+}
+
+div.rightp{
+    width:35%;
+    float:right;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:5%;
+    padding-right:10%;
+}
+
+div.leftp{
+    width:35%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:10%;
+    padding-right:5%;
+}
+
+.center{
+    width:35%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:8%;
+    padding-right:8%;
+}
+
+
+
+left{
+    width:35%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:10%;
+    padding-right:5%;
+}
+
+right{
+    width:35%;
+    padding-top: 2%; 
+    padding-bottom: 2%;
+    padding-left:5%;
+    padding-right:10%;
+}
+
+p.clear
+{
+clear:both;
+}
+
